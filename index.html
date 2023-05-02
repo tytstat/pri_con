@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <head>
-  <title>囚情預警</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<title>囚情預警</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <html>
 <style>
 table, th, td {
-  border:1px solid black; 
+border:1px solid black;
 }
 </style>
 <body>
@@ -17,70 +17,70 @@ table, th, td {
 <h2>A basic HTML table</h2>
 
 <table class="table table-hover table-bordered">
-  <tr>
-    <th>機關</th>
-    <th>資料日期</th>
-    <th>機關代碼</th>
-    <th>現有人數</th>
-    <th>違規人數</th>
-    <th>送醫治療人數</th>
-    <th>超額收容率1</th> <!--允許負的選這個 -->
-    <th>超額收容率2</th>
-    <th>核定容額</th>
-    <th>送醫住院人數</th>
-    <th>當日初篩發現發燒收容人人數</th>
-  </tr>
-<tr id=1120430@2401><td>基隆監獄</td><td>1120430</td><td>2401</td><td>296</td><td>1</td><td>1</td><td>-6%</td><td>0%</td><td>315</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2402><td>宜蘭監獄</td><td>1120430</td><td>2402</td><td>3364</td><td>0</td><td>2</td><td>6.1%</td><td>6.1%</td><td>3171</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2403><td>臺北監獄</td><td>1120430</td><td>2403</td><td>3958</td><td>0</td><td>0</td><td>16.4%</td><td>16.4%</td><td>3401</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2404><td>新竹監獄</td><td>1120430</td><td>2404</td><td>1825</td><td>0</td><td>1</td><td>9%</td><td>9%</td><td>1674</td><td>1</td><td>0</td></tr>
-<tr id=1120430@2405><td>臺中監獄</td><td>1120430</td><td>2405</td><td>4732</td><td>0</td><td>0</td><td>6.6%</td><td>6.6%</td><td>4439</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2406><td>雲林監獄</td><td>1120430</td><td>2406</td><td>972</td><td>0</td><td>0</td><td>-8%</td><td>0%</td><td>1057</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2407><td>嘉義監獄</td><td>1120430</td><td>2407</td><td>2076</td><td>2</td><td>1</td><td>-8%</td><td>0%</td><td>2257</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2408><td>臺南監獄</td><td>1120430</td><td>2408</td><td>2366</td><td>0</td><td>0</td><td>-17.4%</td><td>0%</td><td>2863</td><td>1</td><td>0</td></tr>
-<tr id=1120430@2409><td>高雄監獄</td><td>1120430</td><td>2409</td><td>2134</td><td>0</td><td>0</td><td>0.7%</td><td>0.7%</td><td>2120</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2410><td>屏東監獄</td><td>1120430</td><td>2410</td><td>2194</td><td>0</td><td>4</td><td>-0.7%</td><td>0%</td><td>2209</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2411><td>澎湖監獄</td><td>1120430</td><td>2411</td><td>1023</td><td>0</td><td>0</td><td>-37.5%</td><td>0%</td><td>1637</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2412><td>花蓮監獄</td><td>1120430</td><td>2412</td><td>1520</td><td>0</td><td>2</td><td>-0.7%</td><td>0%</td><td>1530</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2413><td>臺東監獄</td><td>1120430</td><td>2413</td><td>415</td><td>0</td><td>0</td><td>-24.1%</td><td>0%</td><td>547</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2414><td>綠島監獄</td><td>1120430</td><td>2414</td><td>69</td><td>0</td><td>1</td><td>-80.9%</td><td>0%</td><td>362</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2416><td>金門監獄</td><td>1120430</td><td>2416</td><td>158</td><td>0</td><td>0</td><td>-41.3%</td><td>0%</td><td>269</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2417><td>明德外役監獄</td><td>1120430</td><td>2417</td><td>399</td><td>0</td><td>1</td><td>-13.4%</td><td>0%</td><td>461</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2418><td>桃園監獄</td><td>1120430</td><td>2418</td><td>1482</td><td>5</td><td>5</td><td>16.2%</td><td>16.2%</td><td>1275</td><td>2</td><td>0</td></tr>
-<tr id=1120430@2419><td>自強外役監獄</td><td>1120430</td><td>2419</td><td>351</td><td>0</td><td>0</td><td>-4.4%</td><td>0%</td><td>367</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2420><td>泰源技能訓練所</td><td>1120430</td><td>2420</td><td>1227</td><td>0</td><td>0</td><td>-24.3%</td><td>0%</td><td>1620</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2421><td>東成技能訓練所</td><td>1120430</td><td>2421</td><td>588</td><td>0</td><td>0</td><td>-27.2%</td><td>0%</td><td>808</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2422><td>岩灣技能訓練所</td><td>1120430</td><td>2422</td><td>522</td><td>0</td><td>0</td><td>-51.8%</td><td>0%</td><td>1083</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2424><td>雲林第二監獄</td><td>1120430</td><td>2424</td><td>2459</td><td>1</td><td>0</td><td>-20.9%</td><td>0%</td><td>3108</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2425><td>高雄第二監獄</td><td>1120430</td><td>2425</td><td>1886</td><td>1</td><td>0</td><td>9.5%</td><td>9.5%</td><td>1722</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2426><td>臺南第二監獄</td><td>1120430</td><td>2426</td><td>873</td><td>0</td><td>0</td><td>-20.6%</td><td>0%</td><td>1100</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2468><td>八德外役監獄</td><td>1120430</td><td>2468</td><td>291</td><td>0</td><td>0</td><td>-27.4%</td><td>0%</td><td>401</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2470><td>彰化監獄</td><td>1120430</td><td>2470</td><td>2032</td><td>0</td><td>0</td><td>-3.1%</td><td>0%</td><td>2096</td><td>1</td><td>0</td></tr>
-<tr id=1120430@2475><td>高雄女子監獄</td><td>1120430</td><td>2475</td><td>1135</td><td>0</td><td>0</td><td>-10.4%</td><td>0%</td><td>1267</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2476><td>臺中女子監獄</td><td>1120430</td><td>2476</td><td>1195</td><td>0</td><td>0</td><td>-14.4%</td><td>0%</td><td>1396</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2477><td>桃園女子監獄</td><td>1120430</td><td>2477</td><td>1090</td><td>0</td><td>1</td><td>6.1%</td><td>6.1%</td><td>1027</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2501><td>基隆看守所</td><td>1120430</td><td>2501</td><td>179</td><td>1</td><td>0</td><td>24.3%</td><td>24.3%</td><td>144</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2503><td>臺北看守所</td><td>1120430</td><td>2503</td><td>2427</td><td>2</td><td>0</td><td>13.7%</td><td>13.7%</td><td>2134</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2505><td>新竹看守所</td><td>1120430</td><td>2505</td><td>187</td><td>0</td><td>0</td><td>-9.7%</td><td>0%</td><td>207</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2506><td>臺中看守所</td><td>1120430</td><td>2506</td><td>1789</td><td>2</td><td>1</td><td>23.2%</td><td>23.2%</td><td>1452</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2507><td>彰化看守所</td><td>1120430</td><td>2507</td><td>277</td><td>0</td><td>0</td><td>-11.2%</td><td>0%</td><td>312</td><td>1</td><td>0</td></tr>
-<tr id=1120430@2509><td>嘉義看守所</td><td>1120430</td><td>2509</td><td>710</td><td>0</td><td>0</td><td>-2.3%</td><td>0%</td><td>727</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2510><td>臺南看守所</td><td>1120430</td><td>2510</td><td>1342</td><td>0</td><td>1</td><td>7.9%</td><td>7.9%</td><td>1244</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2512><td>屏東看守所</td><td>1120430</td><td>2512</td><td>663</td><td>0</td><td>0</td><td>-1.6%</td><td>0%</td><td>674</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2514><td>花蓮看守所</td><td>1120430</td><td>2514</td><td>182</td><td>0</td><td>0</td><td>-14.2%</td><td>0%</td><td>212</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2517><td>南投看守所</td><td>1120430</td><td>2517</td><td>345</td><td>0</td><td>0</td><td>14.6%</td><td>14.6%</td><td>301</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2518><td>苗栗看守所</td><td>1120430</td><td>2518</td><td>739</td><td>0</td><td>1</td><td>10.8%</td><td>10.8%</td><td>667</td><td>1</td><td>0</td></tr>
-<tr id=1120430@2522><td>臺北女子看守所</td><td>1120430</td><td>2522</td><td>373</td><td>0</td><td>1</td><td>-2.9%</td><td>0%</td><td>384</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2603><td>臺北少年觀護所</td><td>1120430</td><td>2603</td><td>136</td><td>0</td><td>0</td><td>-72.8%</td><td>0%</td><td>500</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2610><td>臺南少年觀護所</td><td>1120430</td><td>2610</td><td>15</td><td>0</td><td>0</td><td>-90.7%</td><td>0%</td><td>162</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2710><td>誠正中學</td><td>1120430</td><td>2710</td><td>164</td><td>0</td><td>0</td><td>-45.2%</td><td>0%</td><td>299</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2711><td>明陽中學</td><td>1120430</td><td>2711</td><td>125</td><td>0</td><td>0</td><td>-85%</td><td>0%</td><td>836</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2712><td>敦品中學</td><td>1120430</td><td>2712</td><td>188</td><td>0</td><td>0</td><td>-14.9%</td><td>0%</td><td>221</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2713><td>勵志中學</td><td>1120430</td><td>2713</td><td>249</td><td>2</td><td>0</td><td>-57.1%</td><td>0%</td><td>580</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2805><td>臺中戒治所</td><td>1120430</td><td>2805</td><td>366</td><td>0</td><td>0</td><td>-32.7%</td><td>0%</td><td>544</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2809><td>高雄戒治所</td><td>1120430</td><td>2809</td><td>411</td><td>0</td><td>0</td><td>-56.2%</td><td>0%</td><td>938</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2813><td>臺東戒治所</td><td>1120430</td><td>2813</td><td>306</td><td>0</td><td>0</td><td>-71.8%</td><td>0%</td><td>1086</td><td>0</td><td>0</td></tr>
-<tr id=1120430@2817><td>新店戒治所</td><td>1120430</td><td>2817</td><td>528</td><td>0</td><td>0</td><td>-54.8%</td><td>0%</td><td>1169</td><td>0</td><td>0</td></tr>
+<tr>
+<th>機關</th>
+<th>資料日期</th>
+<th>機關代碼</th>
+<th>現有人數</th>
+<th>違規人數</th>
+<th>送醫治療人數</th>
+<th>超額收容率1</th> <!--允許負的選這個 -->
+<th>超額收容率2</th>
+<th>核定容額</th>
+<th>送醫住院人數</th>
+<th>當日初篩發現發燒收容人人數</th>
+</tr>
+<tr id=1120501@2401><td>基隆監獄</td><td>1120501</td><td>2401</td><td>295</td><td>0</td><td>3</td><td>-6.3%</td><td>0%</td><td>315</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2402><td>宜蘭監獄</td><td>1120501</td><td>2402</td><td>3351</td><td>1</td><td>11</td><td>5.7%</td><td>5.7%</td><td>3171</td><td>3</td><td>0</td></tr>
+<tr id=1120501@2403><td>臺北監獄</td><td>1120501</td><td>2403</td><td>3940</td><td>2</td><td>7</td><td>15.8%</td><td>15.8%</td><td>3401</td><td>0</td><td>1</td></tr>
+<tr id=1120501@2404><td>新竹監獄</td><td>1120501</td><td>2404</td><td>1835</td><td>0</td><td>6</td><td>9.6%</td><td>9.6%</td><td>1674</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2405><td>臺中監獄</td><td>1120501</td><td>2405</td><td>4726</td><td>1</td><td>12</td><td>6.5%</td><td>6.5%</td><td>4439</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2406><td>雲林監獄</td><td>1120501</td><td>2406</td><td>969</td><td>0</td><td>3</td><td>-8.3%</td><td>0%</td><td>1057</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2407><td>嘉義監獄</td><td>1120501</td><td>2407</td><td>2073</td><td>0</td><td>4</td><td>-8.2%</td><td>0%</td><td>2257</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2408><td>臺南監獄</td><td>1120501</td><td>2408</td><td>2365</td><td>0</td><td>3</td><td>-17.4%</td><td>0%</td><td>2863</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2409><td>高雄監獄</td><td>1120501</td><td>2409</td><td>2140</td><td>0</td><td>4</td><td>0.9%</td><td>0.9%</td><td>2120</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2410><td>屏東監獄</td><td>1120501</td><td>2410</td><td>2193</td><td>1</td><td>5</td><td>-0.7%</td><td>0%</td><td>2209</td><td>2</td><td>0</td></tr>
+<tr id=1120501@2411><td>澎湖監獄</td><td>1120501</td><td>2411</td><td>1022</td><td>5</td><td>0</td><td>-37.6%</td><td>0%</td><td>1637</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2412><td>花蓮監獄</td><td>1120501</td><td>2412</td><td>1520</td><td>0</td><td>3</td><td>-0.7%</td><td>0%</td><td>1530</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2413><td>臺東監獄</td><td>1120501</td><td>2413</td><td>413</td><td>0</td><td>2</td><td>-24.5%</td><td>0%</td><td>547</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2414><td>綠島監獄</td><td>1120501</td><td>2414</td><td>69</td><td>0</td><td>0</td><td>-80.9%</td><td>0%</td><td>362</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2416><td>金門監獄</td><td>1120501</td><td>2416</td><td>158</td><td>0</td><td>1</td><td>-41.3%</td><td>0%</td><td>269</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2417><td>明德外役監獄</td><td>1120501</td><td>2417</td><td>397</td><td>1</td><td>0</td><td>-13.9%</td><td>0%</td><td>461</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2418><td>桃園監獄</td><td>1120501</td><td>2418</td><td>1480</td><td>1</td><td>2</td><td>16.1%</td><td>16.1%</td><td>1275</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2419><td>自強外役監獄</td><td>1120501</td><td>2419</td><td>350</td><td>0</td><td>1</td><td>-4.6%</td><td>0%</td><td>367</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2420><td>泰源技能訓練所</td><td>1120501</td><td>2420</td><td>1226</td><td>0</td><td>3</td><td>-24.3%</td><td>0%</td><td>1620</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2421><td>東成技能訓練所</td><td>1120501</td><td>2421</td><td>588</td><td>0</td><td>2</td><td>-27.2%</td><td>0%</td><td>808</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2422><td>岩灣技能訓練所</td><td>1120501</td><td>2422</td><td>522</td><td>0</td><td>2</td><td>-51.8%</td><td>0%</td><td>1083</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2424><td>雲林第二監獄</td><td>1120501</td><td>2424</td><td>2454</td><td>0</td><td>2</td><td>-21%</td><td>0%</td><td>3108</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2425><td>高雄第二監獄</td><td>1120501</td><td>2425</td><td>1891</td><td>2</td><td>5</td><td>9.8%</td><td>9.8%</td><td>1722</td><td>5</td><td>0</td></tr>
+<tr id=1120501@2426><td>臺南第二監獄</td><td>1120501</td><td>2426</td><td>874</td><td>0</td><td>2</td><td>-20.5%</td><td>0%</td><td>1100</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2468><td>八德外役監獄</td><td>1120501</td><td>2468</td><td>290</td><td>0</td><td>1</td><td>-27.7%</td><td>0%</td><td>401</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2470><td>彰化監獄</td><td>1120501</td><td>2470</td><td>2029</td><td>2</td><td>2</td><td>-3.2%</td><td>0%</td><td>2096</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2475><td>高雄女子監獄</td><td>1120501</td><td>2475</td><td>1138</td><td>1</td><td>1</td><td>-10.2%</td><td>0%</td><td>1267</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2476><td>臺中女子監獄</td><td>1120501</td><td>2476</td><td>1192</td><td>0</td><td>10</td><td>-14.6%</td><td>0%</td><td>1396</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2477><td>桃園女子監獄</td><td>1120501</td><td>2477</td><td>1085</td><td>0</td><td>0</td><td>5.6%</td><td>5.6%</td><td>1027</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2501><td>基隆看守所</td><td>1120501</td><td>2501</td><td>180</td><td>0</td><td>0</td><td>25%</td><td>25%</td><td>144</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2503><td>臺北看守所</td><td>1120501</td><td>2503</td><td>2423</td><td>3</td><td>6</td><td>13.5%</td><td>13.5%</td><td>2134</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2505><td>新竹看守所</td><td>1120501</td><td>2505</td><td>187</td><td>0</td><td>0</td><td>-9.7%</td><td>0%</td><td>207</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2506><td>臺中看守所</td><td>1120501</td><td>2506</td><td>1778</td><td>0</td><td>1</td><td>22.5%</td><td>22.5%</td><td>1452</td><td>0</td><td>2</td></tr>
+<tr id=1120501@2507><td>彰化看守所</td><td>1120501</td><td>2507</td><td>276</td><td>0</td><td>0</td><td>-11.5%</td><td>0%</td><td>312</td><td>1</td><td>0</td></tr>
+<tr id=1120501@2509><td>嘉義看守所</td><td>1120501</td><td>2509</td><td>708</td><td>1</td><td>0</td><td>-2.6%</td><td>0%</td><td>727</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2510><td>臺南看守所</td><td>1120501</td><td>2510</td><td>1349</td><td>0</td><td>1</td><td>8.4%</td><td>8.4%</td><td>1244</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2512><td>屏東看守所</td><td>1120501</td><td>2512</td><td>658</td><td>0</td><td>0</td><td>-2.4%</td><td>0%</td><td>674</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2514><td>花蓮看守所</td><td>1120501</td><td>2514</td><td>177</td><td>0</td><td>1</td><td>-16.5%</td><td>0%</td><td>212</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2517><td>南投看守所</td><td>1120501</td><td>2517</td><td>342</td><td>0</td><td>0</td><td>13.6%</td><td>13.6%</td><td>301</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2518><td>苗栗看守所</td><td>1120501</td><td>2518</td><td>735</td><td>2</td><td>1</td><td>10.2%</td><td>10.2%</td><td>667</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2522><td>臺北女子看守所</td><td>1120501</td><td>2522</td><td>378</td><td>0</td><td>0</td><td>-1.6%</td><td>0%</td><td>384</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2603><td>臺北少年觀護所</td><td>1120501</td><td>2603</td><td>137</td><td>0</td><td>0</td><td>-72.6%</td><td>0%</td><td>500</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2610><td>臺南少年觀護所</td><td>1120501</td><td>2610</td><td>14</td><td>0</td><td>0</td><td>-91.4%</td><td>0%</td><td>162</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2710><td>誠正中學</td><td>1120501</td><td>2710</td><td>162</td><td>0</td><td>1</td><td>-45.8%</td><td>0%</td><td>299</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2711><td>明陽中學</td><td>1120501</td><td>2711</td><td>128</td><td>0</td><td>0</td><td>-84.7%</td><td>0%</td><td>836</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2712><td>敦品中學</td><td>1120501</td><td>2712</td><td>187</td><td>0</td><td>1</td><td>-15.4%</td><td>0%</td><td>221</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2713><td>勵志中學</td><td>1120501</td><td>2713</td><td>249</td><td>0</td><td>0</td><td>-57.1%</td><td>0%</td><td>580</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2805><td>臺中戒治所</td><td>1120501</td><td>2805</td><td>369</td><td>1</td><td>0</td><td>-32.2%</td><td>0%</td><td>544</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2809><td>高雄戒治所</td><td>1120501</td><td>2809</td><td>412</td><td>0</td><td>0</td><td>-56.1%</td><td>0%</td><td>938</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2813><td>臺東戒治所</td><td>1120501</td><td>2813</td><td>307</td><td>0</td><td>0</td><td>-71.7%</td><td>0%</td><td>1086</td><td>0</td><td>0</td></tr>
+<tr id=1120501@2817><td>新店戒治所</td><td>1120501</td><td>2817</td><td>520</td><td>0</td><td>3</td><td>-55.5%</td><td>0%</td><td>1169</td><td>0</td><td>0</td></tr>
 
 
 </table>
